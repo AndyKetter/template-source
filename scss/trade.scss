@@ -1,0 +1,33 @@
+@import "common";//导入公用_common.scss
+.container{
+    >.row{
+        margin-top: 30px;
+        .list-group{
+            border: 1px solid $d;
+            >.list-group-item{
+                &:first-child{
+                    padding-top: 20px;
+                }
+                &:last-child{
+                    padding-bottom: 20px;
+                }
+                border: none;
+                cursor: pointer;
+            }
+        }
+        >.right-col{
+            border: 1px solid #ddd;
+            background-color: #fff;
+            >.trade-title{
+                padding: 10px 0;
+                border-bottom: 1px solid #ddd;
+            }
+            >.card-wrap>.card{
+                border-bottom: 1px solid #ddd;
+                .more{
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}

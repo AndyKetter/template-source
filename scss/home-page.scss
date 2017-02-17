@@ -1,0 +1,32 @@
+@import "common";//导入公用_common.scss
+.card{
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px #ddd;
+}
+.more{
+    padding-top: 20px;
+}
+/**
+ * main样式
+ */
+.main{
+    margin-top: 50px;
+    .container{
+        .t-h{
+            padding-top: 60px;
+        }
+        .line{
+            display: inline-block;
+            width: 81px;
+            height: 4px;
+            background-color: #449EEC;
+            border-radius: 2px;
+        }
+        .t-detail{
+            padding-top: 20px;
+            padding-bottom: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+}

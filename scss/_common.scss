@@ -1,0 +1,114 @@
+$d: #ddd;
+$a-777:#777;
+$a-active:#11A9EC;
+.box-shadow{
+    box-shadow: 0 0 20px #ddd;
+}
+.mar-auto{
+    margin: auto;
+}
+.mgl20{
+    margin-left: 20px;
+}
+.mgt20{
+    margin-top: 20px;
+}
+.p-r{
+    position: relative;
+}
+.p-a{
+    position: absolute;
+}
+.pdl10{
+    padding-left: 10px;
+}
+.p-25{
+    padding-right: 25px;
+}
+.tc{
+    text-align: center;
+}
+.bg-F2F2F2{
+    background-color: #F2F2F2 !important;
+}
+.bg-459FED{
+    color: #459FED;
+}
+.f-36{
+    font-size: 36px;
+}
+.f-18{
+    font-size: 18px;
+}
+.pd30{
+    padding: 30px;
+}
+.pd20{
+    padding: 20px;
+}
+.pdb-100{
+    padding-bottom: 100px;
+}
+/**
+ * 头部公用样式
+ */
+.navbar{
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px #ddd;
+    background-color: #fff;
+    margin-bottom: 0;
+    .navbar-toggle{
+        &:hover{
+            background-color:#f9f9f9;
+        }
+        .icon-bar{
+            background-color: #563d7c;
+        }
+    }
+    .navbar-brand{
+        display: inline-block;
+        width: 140px;
+        height: 50px;
+        background: url('../images/h-logo.jpg') center 0 no-repeat;
+    }
+
+    .navbar-nav{
+        a{
+            color: $a-777;
+            &.a-active{
+                color: $a-active;
+            }
+        }
+        input{
+            width: 150px;
+            height: 30px;
+            border-radius: 15px;
+        }
+        .search-li{
+            height: 50px;
+            padding-top: 10px;
+            @extend .mgl20;
+            .searchBtn{
+                border: none;
+                width: 18px;
+                height: 18px;
+                cursor: pointer;
+                background: url("../images/search.png") center no-repeat;
+                display: inline;
+                top: 6px;
+                right: 6px;
+                outline: none;
+            }
+        }
+    }
+}
+/**
+ * footer样式
+ */
+footer{
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+}

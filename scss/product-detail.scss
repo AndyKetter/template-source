@@ -1,0 +1,106 @@
+@import "common";
+body{
+    position: relative;
+    >.application-form{
+        position: fixed;
+        bottom: 20%;
+        right: 0;
+        width: 316px;
+        height: 448px;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        border-radius: 5px;
+        >.form-head{
+            height: 55px;
+            background-color: #459FED;
+            color: #fff;
+            font-size: 16px;
+            line-height: 55px;
+            padding: 0 20px;
+            >span{
+                margin-left: 10px;
+            }
+        }
+        >.form-inpt{
+            padding: 0 20px;
+            >input,>textarea{
+                margin-top: 15px;
+            }
+            >button{
+                width: 100%;
+                margin-top:15px;
+            }
+        }
+    }
+}
+.main{
+    padding-top: 50px;
+}
+.detail-img{
+    padding-top: 50px;
+    background-color: #fff;
+    .d-r{
+        padding-top: 80px;
+        padding-bottom: 50px;
+        .t-f{
+            padding-left: 50px;
+            .t-head{
+                font-size: 40px;
+                padding-bottom: 10px;
+            }
+            .t-body{
+                line-height: 25px;
+            }
+            .t-head-b{
+                font-size: 18px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            .t-body-b{
+                line-height: 25px;
+                ul{
+                    li{
+                        padding-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+.table-d{
+    background-color: #fff;
+    padding-bottom: 50px;
+    .main{
+        .line{
+            display: inline-block;
+            width: 81px;
+            height: 4px;
+            background-color: #449EEC;
+            border-radius: 2px;
+        }
+        .t-detail{
+            padding-top: 20px;
+            padding-bottom: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .table-responsive{
+            tr{
+                td{
+                    padding-left: 20px;
+                }
+                td:first-child{
+                    background-color: #FDFDFD;
+                }
+            }
+        }
+        .card-list{
+            .card-t{
+                padding: 20px;
+                line-height: 25px;
+                background-color: #fff;
+                border: 1px solid #ddd;
+            }
+        }
+    }
+}
